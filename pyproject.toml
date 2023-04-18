@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "diagrams"
+version = "0.1.0"
+description = "Example of Diagram as Code"
+authors = ["Maksim Sidorov <sid-maxim@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+diagrams = "^0.23.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
